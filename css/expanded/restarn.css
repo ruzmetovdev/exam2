@@ -192,6 +192,21 @@ nav {
   height: 0;
 }
 
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
 #menu {
   background-color: #e5e5e5;
   padding-bottom: 130px;

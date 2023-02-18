@@ -1,0 +1,11 @@
+@mixin flex($gap, $jscon) {
+  display: flex;
+  justify-content: $jscon;
+  gap: $gap;
+}
+
+@mixin grid($colum, $ggap) {
+  display: grid;
+  grid-template-columns: repeat($colum);
+  grid-gap: $ggap;
+}
